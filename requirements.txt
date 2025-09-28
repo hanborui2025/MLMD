@@ -5,7 +5,7 @@ wheel==0.44.0
 
 # 2. 核心框架（适配 Python 3.10，且无二进制兼容问题）
 tensorflow==2.18.0  # 支持 Python 3.10，且依赖 numpy 版本与 pandas 兼容
-tensorflow-macos==2.18.0  # 补充 Mac 本地兼容，云环境会自动忽略
+# tensorflow-macos==2.18.0  # 补充 Mac 本地兼容，云环境会自动忽略
 numpy==1.26.4  # 满足 tensorflow 2.18.0 要求，且适配 pandas 1.5.3
 pandas==1.5.3  # 与 matminer 0.9.0 兼容，且支持 Python 3.10
 adapt==0.4.4  # 固定版本，避免自动升级冲突
