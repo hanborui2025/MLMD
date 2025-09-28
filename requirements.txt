@@ -42,5 +42,5 @@ streamlit-option-menu==0.3.2
 streamlit-shap==1.0.2
 
 # 6. TensorFlow 依赖补充（避免云环境缺失）
-tensorflow-estimator==2.18.0
+tensorflow-estimator==2.15.0
 tensorflow-io-gcs-filesystem==0.37.1
