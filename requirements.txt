@@ -11,7 +11,7 @@ pandas==1.5.3  # 与 matminer 0.9.0 兼容，且支持 Python 3.10
 adapt==0.4.4  # 固定版本，避免自动升级冲突
 
 # 3. 机器学习库（替换为 Python 3.10 适配版本，简化编译）
-catboost==1.7.0  # 替换 1.2 版本，提供 Python 3.10 二进制包，无需复杂构建
+catboost==1.2 # 替换 1.2 版本，提供 Python 3.10 二进制包，无需复杂构建
 xgboost==2.0.3  # 替换 1.7.4，适配 Python 3.10
 scikit-learn==1.3.2  # 官方标准包名（连字符），适配 3.10
 shap==0.45.1  # 适配 Python 3.10 和 numpy 1.26.4
